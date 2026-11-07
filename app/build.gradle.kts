@@ -21,11 +21,19 @@ android {
             "PRIVACY_URL_PT",
             "\"https://devsold.github.io/startrescue-privacy/politica.html\""
         )
+       
+        // URLs das políticas de privacidade
+        buildConfigField(
+            "String",
+            "PRIVACY_URL_PT",
+            "\"https://rodrigocezartech.github.io/startrescue-privacy/politica.html\""
+        )
         buildConfigField(
             "String",
             "PRIVACY_URL_EN",
-            "\"https://devsold.github.io/startrescue-privacy/privacy.html\""
+            "\"https://rodrigocezartech.github.io/startrescue-privacy/privacy.html\""
         )
+
     }
 
 
